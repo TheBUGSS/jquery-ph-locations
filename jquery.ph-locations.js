@@ -65,7 +65,7 @@
 			},
 
 			build_options(params){
-				var shtml = "";
+				var shtml = '<option value="" disabled="disabled>'+ '- Select Region -' + '</option>';
 
 				for(var i=0; i<params.data.length;i++){
 					shtml += '<option value="' + params.data[i].id + '">';
